@@ -14,14 +14,25 @@ namespace Kata.XUnit.Tests
             var board = new Board();
 
             Assert.Equal(board.positions.Length, 9);
-            Assert.True(board.positions.All(x => x == null));
+            Assert.True(board.positions.All(x => x == " "));
+        }
+
+        [Fact]
+        public void FirstPlayerMove()
+        {
+            var board = new Board();
+            board.XPlayerMakesMove(0, 0);
+
+            Assert.True(board.positions.First(x => x == 0));
         }
     }
 
     public class Board
     {
-        public string[] positions = new string[9];
-
-
+        public string[] positions = { 
+            " ", " ", " ", 
+            " ", " ", " ", 
+            " ", " ", " "
+        };
     }
 }
