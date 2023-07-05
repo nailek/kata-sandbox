@@ -1,4 +1,6 @@
-﻿using FluentAssertions;
+﻿using System;
+using System.Linq;
+using FluentAssertions;
 using Kata;
 using Xunit;
 
@@ -9,8 +11,17 @@ namespace Kata.XUnit.Tests
         [Fact]
         public void AnEmptyBoard_HasNineEmptyPositions()
         {
-            Assert.Equals(board.positions, 9);
-            Assert.True(board.positions.All(x => x == null)));
+            var board = new Board();
+
+            Assert.Equal(board.positions.Length, 9);
+            Assert.True(board.positions.All(x => x == null));
         }
+    }
+
+    public class Board
+    {
+        public string[] positions = new string[9];
+
+
     }
 }
