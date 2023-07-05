@@ -1,0 +1,8 @@
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\bin\Debug\TickTackToe.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\bin\Debug\TickTackToe.pdb
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\bin\Debug\TickTackToe.dll.CodeAnalysisLog.xml
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\bin\Debug\TickTackToe.dll.lastcodeanalysissucceeded
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\obj\Debug\TickTackToe.csproj.AssemblyReference.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\obj\Debug\TickTackToe.csproj.CoreCompileInputs.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\obj\Debug\TickTackToe.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\tick-tack-toe\TickTackToe\Kata\obj\Debug\TickTackToe.pdb

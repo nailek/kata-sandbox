@@ -1,0 +1,14 @@
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.MSTest.Tests.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.MSTest.Tests.pdb
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.MSTest.Tests.dll.CodeAnalysisLog.xml
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.MSTest.Tests.dll.lastcodeanalysissucceeded
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Moq.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Kata.pdb
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\bin\Debug\Moq.xml
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\obj\Debug\Kata.MSTest.Tests.csproj.AssemblyReference.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\obj\Debug\Kata.MSTest.Tests.csproj.CoreCompileInputs.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\obj\Debug\Kata.MSTest.Tests.csproj.CopyComplete
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\obj\Debug\Kata.MSTest.Tests.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata.MSTest.Tests\obj\Debug\Kata.MSTest.Tests.pdb

@@ -1,0 +1,8 @@
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\bin\Debug\Kata.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\bin\Debug\Kata.pdb
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\bin\Debug\Kata.dll.CodeAnalysisLog.xml
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\bin\Debug\Kata.dll.lastcodeanalysissucceeded
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\obj\Debug\Kata.csproj.AssemblyReference.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\obj\Debug\Kata.csproj.CoreCompileInputs.cache
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\obj\Debug\Kata.dll
+C:\inetpub\Git\V5\Kata\kata-sandbox\kata-bootstraps-master\Kata\Kata\obj\Debug\Kata.pdb
