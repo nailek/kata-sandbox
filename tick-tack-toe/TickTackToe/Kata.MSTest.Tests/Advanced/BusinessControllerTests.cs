@@ -17,7 +17,7 @@ namespace Kata.MSTest.Tests.Advanced
             repoMock.Setup(repo => repo.Get(1664)).Returns(expected);
             var sut = new BusinessController(repoMock.Object);
 
-            // Act
+            // Act!
             var actual = sut.Add(new BusinessEntity());
 
             // Assert
