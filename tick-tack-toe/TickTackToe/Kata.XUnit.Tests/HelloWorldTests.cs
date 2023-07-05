@@ -18,7 +18,7 @@ namespace Kata.XUnit.Tests
         }
 
         [Fact]
-        public void FirstPlayerMove()
+        public void FirstPlayerMoveToZeroZero()
         {
             var board = new Board();
             board.XPlayerMakesMove(0, 0);
@@ -26,6 +26,24 @@ namespace Kata.XUnit.Tests
             Assert.Equal("X", board.positions[0]);
             Assert.All(board.positions.Skip(1), x => Assert.Equal(" ", x));
         }
+
+        [Fact]
+        public void FirstPlayerMoveToOneTwo()
+        {
+            var board = new Board();
+            board.XPlayerMakesMove(1, 2);
+
+            Assert.Equal("X", board.positions[0]);
+            Assert.All(board.positions.Skip(1), x => Assert.Equal(" ", x));
+
+            Assert.Equal(
+                "   " + "\n" +
+                "  X" + "\n" +
+                "   ",
+
+                board.ToString());
+        }
+
     }
 
     public class Board
