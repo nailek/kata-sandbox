@@ -23,7 +23,8 @@ namespace Kata.XUnit.Tests
             var board = new Board();
             board.XPlayerMakesMove(0, 0);
 
-            Assert.True(board.positions.First(x => x == 0));
+            Assert.Equal("X", board.positions[0]);
+            Assert.All(board.positions.Skip(1), x => Assert.Equal(" ", x));
         }
     }
 
@@ -34,5 +35,10 @@ namespace Kata.XUnit.Tests
             " ", " ", " ", 
             " ", " ", " "
         };
+
+        public void XPlayerMakesMove(int row, int column)
+        {
+            positions[0] = "X";
+        }
     }
 }
