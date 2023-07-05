@@ -10,7 +10,7 @@ namespace Kata.XUnit.Tests
         public void AnEmptyBoard_HasNineEmptyPositions()
         {
             Assert.Equals(board.positions, 9);
-            Assert.Equals(board.positions, 9);
+            Assert.True(board.positions.All(x => x == null)));
         }
     }
 }
