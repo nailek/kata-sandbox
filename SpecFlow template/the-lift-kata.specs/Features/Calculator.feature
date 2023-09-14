@@ -23,3 +23,14 @@ Scenario: Asking lift down
 	Given the lift is in floor 1
 	When the lift is called from 0
 	Then the lift goes to floor 0
+
+Scenario: Asking lift up
+	Given the lift is in floor 0
+	When the lift is called from 2
+	Then the lift goes to floor 2
+
+Scenario: Asking lift up with status
+	Given the lift is in floor 0
+	When the lift is called from 2
+	Then the lift goes to floor 2
+	And travelled through floor/s 0,1
