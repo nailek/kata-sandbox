@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the-lift-kata", "the-lift-kata\the-lift-kata.csproj", "{F87A4B25-438A-4418-AAA6-679C22C9E5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theLiftKata.specs", "the-lift-kata.specs\theLiftKata.specs.csproj", "{CB8632A4-9691-4687-8859-39974477E1AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F87A4B25-438A-4418-AAA6-679C22C9E5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87A4B25-438A-4418-AAA6-679C22C9E5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87A4B25-438A-4418-AAA6-679C22C9E5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87A4B25-438A-4418-AAA6-679C22C9E5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8632A4-9691-4687-8859-39974477E1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8632A4-9691-4687-8859-39974477E1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8632A4-9691-4687-8859-39974477E1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8632A4-9691-4687-8859-39974477E1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FBF2B38-517D-4BF2-88BD-52A01037AFCF}
+	EndGlobalSection
+EndGlobal
