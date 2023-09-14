@@ -6,15 +6,18 @@ namespace theLiftKata.specs.StepDefinitions
     [Binding]
     public class LiftStepDefinitions
     {
+        private Lift _lift;
+
         [Given(@"the lift is in floor (.*)")]
-        public void GivenTheLiftIsInFloor(int p0)
+        public void GivenTheLiftIsInFloor(int currentFloor)
         {
-            throw new PendingStepException();
+            _lift = new Lift(currentFloor);
         }
 
         [When(@"the lift is called from (.*)")]
-        public void WhenTheLiftIsCalledFrom(int p0)
+        public void WhenTheLiftIsCalledFrom(int destinationFloor)
         {
+            _lift.CallTo(destinationFloor));
             throw new PendingStepException();
         }
 
@@ -22,6 +25,14 @@ namespace theLiftKata.specs.StepDefinitions
         public void ThenTheLiftGoesToFloor(int p0)
         {
             throw new PendingStepException();
+        }
+    }
+
+    public class Lift
+    {
+        public Lift(int currentFloor)
+        {
+            throw new NotImplementedException();
         }
     }
 }
