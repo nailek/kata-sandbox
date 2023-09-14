@@ -18,3 +18,9 @@ Scenario: Add two zeroes
 	And the second number is 0
 	When the two numbers are added
 	Then the result should be 0
+
+Scenario: Lift 
+	Given my floor is 0
+	And the lift is in floor is 1
+	When the lift is called
+	Then the lift goes to floor 0
