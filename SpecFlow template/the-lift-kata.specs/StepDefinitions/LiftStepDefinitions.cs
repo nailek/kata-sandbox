@@ -25,19 +25,34 @@ namespace theLiftKata.specs.StepDefinitions
         {
             _lift.CurrentFloor.Should().Be(expectedFloor);
         }
+
+        [Then(@"traveled through floor/s (.*)")]
+        public void ThenTravelledThroughFloorS(string p0)
+        {
+            var numbers = p0.Split(',').Select(x => int.Parse(x));
+            numbers.SequenceEqual(_lift.TraveledPath).Should().BeTrue();
+        }
+
     }
 
     public class Lift
     {
         public int CurrentFloor { get; private set; }
 
+        public List<int> TraveledPath { get; private set; }
+
         public Lift(int currentFloor)
         {
             CurrentFloor = currentFloor;
+            TraveledPath = new List<int>();
         }
 
         public void CallTo(int destinationFloor)
         {
+            for (int i = 0; i < destinationFloor; i++)
+            {
+                TraveledPath.Add(i);
+            }
             CurrentFloor = destinationFloor;
         }
     }

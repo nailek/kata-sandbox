@@ -33,4 +33,4 @@ Scenario: Asking lift up with status
 	Given the lift is in floor 0
 	When the lift is called from 2
 	Then the lift goes to floor 2
-	And travelled through floor/s 0,1
+	And traveled through floor/s 0,1
